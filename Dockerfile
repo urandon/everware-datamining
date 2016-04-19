@@ -1,7 +1,7 @@
 FROM yandex/rep:0.6.4
 MAINTAINER Khomutov Nikita <inikitah@gmail.com>
 
-RUN apt-get install -y\
+RUN apt-get update && apt-get install -y\
   htop\
   python-dev\
   libxml2-dev\
