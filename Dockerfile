@@ -1,7 +1,13 @@
 FROM yandex/rep:0.6.4
 MAINTAINER Khomutov Nikita <inikitah@gmail.com>
 
-RUN apt-get install -y curl htop
+RUN apt-get install -y\
+  htop\
+  python-dev\
+  libxml2-dev\
+  libxslt1-dev\
+  zlib1g-dev
+
 RUN bash --login -c "pip install\
   python-telegram-bot==3.4\
   beautifulsoup4==4.4.1\
