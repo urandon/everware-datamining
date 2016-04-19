@@ -17,3 +17,13 @@ RUN bash --login -c "pip install\
   django==1.9.2\
   ipywidgets==4.1.1\
   seaborn==0.7.0"
+
+RUN bash --login -c "source activate jupyterhub_py3 && pip install\
+  python-telegram-bot==3.4\
+  beautifulsoup4==4.4.1\
+  requests==2.9.1\
+  pymongo==3.2.2\
+  bottle==0.12.9\
+  django==1.9.2\
+  ipywidgets==4.1.1\
+  seaborn==0.7.0"
