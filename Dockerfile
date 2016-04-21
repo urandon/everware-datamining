@@ -6,7 +6,12 @@ RUN apt-get update && apt-get install -y\
   python-dev\
   libxml2-dev\
   libxslt1-dev\
-  zlib1g-dev
+  zlib1g-dev\
+  cmake\
+  libreadline-dev\
+  luarocks\
+  libprotobuf-dev\
+  protobuf-compiler
 
 RUN bash --login -c "pip install\
   python-telegram-bot==3.4\
