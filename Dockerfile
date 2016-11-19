@@ -23,12 +23,12 @@ RUN bash --login -c "pip install\
   ipywidgets\
   seaborn"
 
-RUN bash --login -c "source activate jupyterhub_py3 && pip install\
-  python-telegram-bot\
-  beautifulsoup4\
-  requests\
-  pymongo\
-  bottle\
-  django\
-  ipywidgets\
-  seaborn"
+#RUN bash --login -c "source activate jupyterhub_py3 && pip install\
+#  python-telegram-bot\
+#  beautifulsoup4\
+#  requests\
+#  pymongo\
+#  bottle\
+#  django\
+#  ipywidgets\
+#  seaborn"
